@@ -242,11 +242,6 @@ app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 async def serve_app():
     return FileResponse(str(STATIC_DIR / "index.html"))
 
-@app.get("/app")
-async def serve_app():
-    """Serve the web interface"""
-    return FileResponse("static/index.html")
-
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
