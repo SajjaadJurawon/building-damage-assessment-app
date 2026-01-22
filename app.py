@@ -21,7 +21,6 @@ app = FastAPI(
     version="1.0"
 )
 
-# --- CORS (allow your Vercel site) ---
 FRONTEND_ORIGIN = os.getenv(
     "FRONTEND_ORIGIN",
     "https://building-damage-assessment-app.vercel.app"
