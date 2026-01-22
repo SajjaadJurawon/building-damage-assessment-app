@@ -1,0 +1,1100 @@
+{
+  "success": true,
+  "metadata": {
+    "total_buildings": 37,
+    "image_dimensions": {
+      "height": 1024,
+      "width": 1024
+    }
+  },
+  "damage_summary": {
+    "counts": {
+      "no-damage": 30,
+      "minor-damage": 6,
+      "major-damage": 0,
+      "destroyed": 1
+    },
+    "percentages": {
+      "no-damage": 81.08,
+      "minor-damage": 16.22,
+      "major-damage": 0.0,
+      "destroyed": 2.7
+    },
+    "total_area_pixels": 165874
+  },
+  "buildings": [
+    {
+      "id": 0,
+      "bbox": {
+        "x1": 845,
+        "y1": 976,
+        "x2": 917,
+        "y2": 1024
+      },
+      "detection_confidence": 0.6480469107627869,
+      "area": 3456,
+      "dimensions": {
+        "width": 72,
+        "height": 48
+      },
+      "centroid": {
+        "x": 881.0,
+        "y": 1000.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9988143444061279,
+        "probabilities": {
+          "no-damage": 0.9988143444061279,
+          "minor-damage": 0.0011831775773316622,
+          "major-damage": 2.0329289895926195e-07,
+          "destroyed": 2.2454873942479026e-06
+        }
+      }
+    },
+    {
+      "id": 1,
+      "bbox": {
+        "x1": 916,
+        "y1": 486,
+        "x2": 984,
+        "y2": 560
+      },
+      "detection_confidence": 0.5798439979553223,
+      "area": 5032,
+      "dimensions": {
+        "width": 68,
+        "height": 74
+      },
+      "centroid": {
+        "x": 950.0,
+        "y": 523.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9923439621925354,
+        "probabilities": {
+          "no-damage": 0.9923439621925354,
+          "minor-damage": 0.0071742357686161995,
+          "major-damage": 0.0004440311749931425,
+          "destroyed": 3.770379043999128e-05
+        }
+      }
+    },
+    {
+      "id": 2,
+      "bbox": {
+        "x1": 692,
+        "y1": 252,
+        "x2": 853,
+        "y2": 444
+      },
+      "detection_confidence": 0.5788411498069763,
+      "area": 30912,
+      "dimensions": {
+        "width": 161,
+        "height": 192
+      },
+      "centroid": {
+        "x": 772.5,
+        "y": 348.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.886381208896637,
+        "probabilities": {
+          "no-damage": 0.886381208896637,
+          "minor-damage": 9.81297271209769e-05,
+          "major-damage": 0.11341986805200577,
+          "destroyed": 0.0001008004619507119
+        }
+      }
+    },
+    {
+      "id": 3,
+      "bbox": {
+        "x1": 65,
+        "y1": 429,
+        "x2": 119,
+        "y2": 557
+      },
+      "detection_confidence": 0.555787980556488,
+      "area": 6912,
+      "dimensions": {
+        "width": 54,
+        "height": 128
+      },
+      "centroid": {
+        "x": 92.0,
+        "y": 493.0
+      },
+      "damage_assessment": {
+        "class": "minor-damage",
+        "confidence": 0.8050150871276855,
+        "probabilities": {
+          "no-damage": 0.19222459197044373,
+          "minor-damage": 0.8050150871276855,
+          "major-damage": 0.0027258654590696096,
+          "destroyed": 3.4441636671544984e-05
+        }
+      }
+    },
+    {
+      "id": 4,
+      "bbox": {
+        "x1": 148,
+        "y1": 130,
+        "x2": 202,
+        "y2": 219
+      },
+      "detection_confidence": 0.5198831558227539,
+      "area": 4806,
+      "dimensions": {
+        "width": 54,
+        "height": 89
+      },
+      "centroid": {
+        "x": 175.0,
+        "y": 174.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9643786549568176,
+        "probabilities": {
+          "no-damage": 0.9643786549568176,
+          "minor-damage": 0.03074474260210991,
+          "major-damage": 0.004836706444621086,
+          "destroyed": 3.995493898401037e-05
+        }
+      }
+    },
+    {
+      "id": 5,
+      "bbox": {
+        "x1": 584,
+        "y1": 912,
+        "x2": 648,
+        "y2": 980
+      },
+      "detection_confidence": 0.5125384330749512,
+      "area": 4352,
+      "dimensions": {
+        "width": 64,
+        "height": 68
+      },
+      "centroid": {
+        "x": 616.0,
+        "y": 946.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.955376386642456,
+        "probabilities": {
+          "no-damage": 0.955376386642456,
+          "minor-damage": 0.04415135458111763,
+          "major-damage": 0.0003707486903294921,
+          "destroyed": 0.00010155999916605651
+        }
+      }
+    },
+    {
+      "id": 6,
+      "bbox": {
+        "x1": 0,
+        "y1": 591,
+        "x2": 33,
+        "y2": 644
+      },
+      "detection_confidence": 0.510478675365448,
+      "area": 1749,
+      "dimensions": {
+        "width": 33,
+        "height": 53
+      },
+      "centroid": {
+        "x": 16.5,
+        "y": 617.5
+      },
+      "damage_assessment": {
+        "class": "minor-damage",
+        "confidence": 0.57441246509552,
+        "probabilities": {
+          "no-damage": 0.3994106948375702,
+          "minor-damage": 0.57441246509552,
+          "major-damage": 0.0008138235425576568,
+          "destroyed": 0.025362981483340263
+        }
+      }
+    },
+    {
+      "id": 7,
+      "bbox": {
+        "x1": 408,
+        "y1": 863,
+        "x2": 479,
+        "y2": 931
+      },
+      "detection_confidence": 0.43269944190979004,
+      "area": 4828,
+      "dimensions": {
+        "width": 71,
+        "height": 68
+      },
+      "centroid": {
+        "x": 443.5,
+        "y": 897.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.8786978125572205,
+        "probabilities": {
+          "no-damage": 0.8786978125572205,
+          "minor-damage": 0.12086237967014313,
+          "major-damage": 0.00021618424216285348,
+          "destroyed": 0.00022357441775966436
+        }
+      }
+    },
+    {
+      "id": 8,
+      "bbox": {
+        "x1": 931,
+        "y1": 745,
+        "x2": 971,
+        "y2": 778
+      },
+      "detection_confidence": 0.280653715133667,
+      "area": 1320,
+      "dimensions": {
+        "width": 40,
+        "height": 33
+      },
+      "centroid": {
+        "x": 951.0,
+        "y": 761.5
+      },
+      "damage_assessment": {
+        "class": "destroyed",
+        "confidence": 0.4645954966545105,
+        "probabilities": {
+          "no-damage": 0.37969422340393066,
+          "minor-damage": 0.14231251180171967,
+          "major-damage": 0.013397736474871635,
+          "destroyed": 0.4645954966545105
+        }
+      }
+    },
+    {
+      "id": 9,
+      "bbox": {
+        "x1": 416,
+        "y1": 48,
+        "x2": 465,
+        "y2": 105
+      },
+      "detection_confidence": 0.2766985297203064,
+      "area": 2793,
+      "dimensions": {
+        "width": 49,
+        "height": 57
+      },
+      "centroid": {
+        "x": 440.5,
+        "y": 76.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.6973766088485718,
+        "probabilities": {
+          "no-damage": 0.6973766088485718,
+          "minor-damage": 0.30251750349998474,
+          "major-damage": 9.265013068215922e-05,
+          "destroyed": 1.32800323626725e-05
+        }
+      }
+    },
+    {
+      "id": 10,
+      "bbox": {
+        "x1": 758,
+        "y1": 783,
+        "x2": 821,
+        "y2": 834
+      },
+      "detection_confidence": 0.2622371315956116,
+      "area": 3213,
+      "dimensions": {
+        "width": 63,
+        "height": 51
+      },
+      "centroid": {
+        "x": 789.5,
+        "y": 808.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9047957062721252,
+        "probabilities": {
+          "no-damage": 0.9047957062721252,
+          "minor-damage": 0.09513809531927109,
+          "major-damage": 6.282440153881907e-05,
+          "destroyed": 3.4595227589306887e-06
+        }
+      }
+    },
+    {
+      "id": 11,
+      "bbox": {
+        "x1": 149,
+        "y1": 124,
+        "x2": 220,
+        "y2": 219
+      },
+      "detection_confidence": 0.23153148591518402,
+      "area": 6745,
+      "dimensions": {
+        "width": 71,
+        "height": 95
+      },
+      "centroid": {
+        "x": 184.5,
+        "y": 171.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.7237944006919861,
+        "probabilities": {
+          "no-damage": 0.7237944006919861,
+          "minor-damage": 0.2620820999145508,
+          "major-damage": 0.01407566573470831,
+          "destroyed": 4.777650974574499e-05
+        }
+      }
+    },
+    {
+      "id": 12,
+      "bbox": {
+        "x1": 911,
+        "y1": 580,
+        "x2": 977,
+        "y2": 645
+      },
+      "detection_confidence": 0.22883005440235138,
+      "area": 4290,
+      "dimensions": {
+        "width": 66,
+        "height": 65
+      },
+      "centroid": {
+        "x": 944.0,
+        "y": 612.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9584019780158997,
+        "probabilities": {
+          "no-damage": 0.9584019780158997,
+          "minor-damage": 0.041419848799705505,
+          "major-damage": 3.705381459440105e-05,
+          "destroyed": 0.00014117384853307158
+        }
+      }
+    },
+    {
+      "id": 13,
+      "bbox": {
+        "x1": 687,
+        "y1": 794,
+        "x2": 734,
+        "y2": 868
+      },
+      "detection_confidence": 0.21428972482681274,
+      "area": 3478,
+      "dimensions": {
+        "width": 47,
+        "height": 74
+      },
+      "centroid": {
+        "x": 710.5,
+        "y": 831.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9816600680351257,
+        "probabilities": {
+          "no-damage": 0.9816600680351257,
+          "minor-damage": 0.007827666588127613,
+          "major-damage": 0.010483239777386189,
+          "destroyed": 2.9009650461375713e-05
+        }
+      }
+    },
+    {
+      "id": 14,
+      "bbox": {
+        "x1": 92,
+        "y1": 0,
+        "x2": 123,
+        "y2": 12
+      },
+      "detection_confidence": 0.19966359436511993,
+      "area": 372,
+      "dimensions": {
+        "width": 31,
+        "height": 12
+      },
+      "centroid": {
+        "x": 107.5,
+        "y": 6.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9996651411056519,
+        "probabilities": {
+          "no-damage": 0.9996651411056519,
+          "minor-damage": 0.0002724709629546851,
+          "major-damage": 6.166097591631114e-05,
+          "destroyed": 7.943533546495019e-07
+        }
+      }
+    },
+    {
+      "id": 15,
+      "bbox": {
+        "x1": 119,
+        "y1": 143,
+        "x2": 170,
+        "y2": 222
+      },
+      "detection_confidence": 0.17760460078716278,
+      "area": 4029,
+      "dimensions": {
+        "width": 51,
+        "height": 79
+      },
+      "centroid": {
+        "x": 144.5,
+        "y": 182.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.7794243097305298,
+        "probabilities": {
+          "no-damage": 0.7794243097305298,
+          "minor-damage": 0.1403832882642746,
+          "major-damage": 0.009949009865522385,
+          "destroyed": 0.07024340331554413
+        }
+      }
+    },
+    {
+      "id": 16,
+      "bbox": {
+        "x1": 594,
+        "y1": 505,
+        "x2": 658,
+        "y2": 571
+      },
+      "detection_confidence": 0.17098277807235718,
+      "area": 4224,
+      "dimensions": {
+        "width": 64,
+        "height": 66
+      },
+      "centroid": {
+        "x": 626.0,
+        "y": 538.0
+      },
+      "damage_assessment": {
+        "class": "minor-damage",
+        "confidence": 0.5959673523902893,
+        "probabilities": {
+          "no-damage": 0.40387672185897827,
+          "minor-damage": 0.5959673523902893,
+          "major-damage": 0.00015229475684463978,
+          "destroyed": 3.6397464100446086e-06
+        }
+      }
+    },
+    {
+      "id": 17,
+      "bbox": {
+        "x1": 391,
+        "y1": 0,
+        "x2": 449,
+        "y2": 35
+      },
+      "detection_confidence": 0.17058111727237701,
+      "area": 2030,
+      "dimensions": {
+        "width": 58,
+        "height": 35
+      },
+      "centroid": {
+        "x": 420.0,
+        "y": 17.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.8807792067527771,
+        "probabilities": {
+          "no-damage": 0.8807792067527771,
+          "minor-damage": 0.0626235380768776,
+          "major-damage": 0.0565950907766819,
+          "destroyed": 2.1773000753455563e-06
+        }
+      }
+    },
+    {
+      "id": 18,
+      "bbox": {
+        "x1": 70,
+        "y1": 166,
+        "x2": 140,
+        "y2": 237
+      },
+      "detection_confidence": 0.15502406656742096,
+      "area": 4970,
+      "dimensions": {
+        "width": 70,
+        "height": 71
+      },
+      "centroid": {
+        "x": 105.0,
+        "y": 201.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.8894810676574707,
+        "probabilities": {
+          "no-damage": 0.8894810676574707,
+          "minor-damage": 0.06496898084878922,
+          "major-damage": 0.020714640617370605,
+          "destroyed": 0.02483527548611164
+        }
+      }
+    },
+    {
+      "id": 19,
+      "bbox": {
+        "x1": 808,
+        "y1": 916,
+        "x2": 873,
+        "y2": 996
+      },
+      "detection_confidence": 0.15323925018310547,
+      "area": 5200,
+      "dimensions": {
+        "width": 65,
+        "height": 80
+      },
+      "centroid": {
+        "x": 840.5,
+        "y": 956.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9443928003311157,
+        "probabilities": {
+          "no-damage": 0.9443928003311157,
+          "minor-damage": 0.055316340178251266,
+          "major-damage": 3.6874200304737315e-05,
+          "destroyed": 0.0002538715780247003
+        }
+      }
+    },
+    {
+      "id": 20,
+      "bbox": {
+        "x1": 0,
+        "y1": 15,
+        "x2": 39,
+        "y2": 66
+      },
+      "detection_confidence": 0.15004731714725494,
+      "area": 1989,
+      "dimensions": {
+        "width": 39,
+        "height": 51
+      },
+      "centroid": {
+        "x": 19.5,
+        "y": 40.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9206705689430237,
+        "probabilities": {
+          "no-damage": 0.9206705689430237,
+          "minor-damage": 0.05969282612204552,
+          "major-damage": 0.0020904752891510725,
+          "destroyed": 0.01754612848162651
+        }
+      }
+    },
+    {
+      "id": 21,
+      "bbox": {
+        "x1": 321,
+        "y1": 862,
+        "x2": 383,
+        "y2": 962
+      },
+      "detection_confidence": 0.1449824869632721,
+      "area": 6200,
+      "dimensions": {
+        "width": 62,
+        "height": 100
+      },
+      "centroid": {
+        "x": 352.0,
+        "y": 912.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.8785741329193115,
+        "probabilities": {
+          "no-damage": 0.8785741329193115,
+          "minor-damage": 0.03918496146798134,
+          "major-damage": 0.07379712909460068,
+          "destroyed": 0.008443791419267654
+        }
+      }
+    },
+    {
+      "id": 22,
+      "bbox": {
+        "x1": 161,
+        "y1": 120,
+        "x2": 228,
+        "y2": 201
+      },
+      "detection_confidence": 0.1365773230791092,
+      "area": 5427,
+      "dimensions": {
+        "width": 67,
+        "height": 81
+      },
+      "centroid": {
+        "x": 194.5,
+        "y": 160.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.8946824669837952,
+        "probabilities": {
+          "no-damage": 0.8946824669837952,
+          "minor-damage": 0.01698828488588333,
+          "major-damage": 0.08825240284204483,
+          "destroyed": 7.686708704568446e-05
+        }
+      }
+    },
+    {
+      "id": 23,
+      "bbox": {
+        "x1": 564,
+        "y1": 116,
+        "x2": 626,
+        "y2": 183
+      },
+      "detection_confidence": 0.12964847683906555,
+      "area": 4154,
+      "dimensions": {
+        "width": 62,
+        "height": 67
+      },
+      "centroid": {
+        "x": 595.0,
+        "y": 149.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9667591452598572,
+        "probabilities": {
+          "no-damage": 0.9667591452598572,
+          "minor-damage": 0.022022750228643417,
+          "major-damage": 0.009322681464254856,
+          "destroyed": 0.001895431661978364
+        }
+      }
+    },
+    {
+      "id": 24,
+      "bbox": {
+        "x1": 941,
+        "y1": 830,
+        "x2": 994,
+        "y2": 900
+      },
+      "detection_confidence": 0.12506039440631866,
+      "area": 3710,
+      "dimensions": {
+        "width": 53,
+        "height": 70
+      },
+      "centroid": {
+        "x": 967.5,
+        "y": 865.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9329634308815002,
+        "probabilities": {
+          "no-damage": 0.9329634308815002,
+          "minor-damage": 0.06118062138557434,
+          "major-damage": 0.005560482386499643,
+          "destroyed": 0.0002955000672955066
+        }
+      }
+    },
+    {
+      "id": 25,
+      "bbox": {
+        "x1": 402,
+        "y1": 34,
+        "x2": 467,
+        "y2": 105
+      },
+      "detection_confidence": 0.12451687455177307,
+      "area": 4615,
+      "dimensions": {
+        "width": 65,
+        "height": 71
+      },
+      "centroid": {
+        "x": 434.5,
+        "y": 69.5
+      },
+      "damage_assessment": {
+        "class": "minor-damage",
+        "confidence": 0.969723641872406,
+        "probabilities": {
+          "no-damage": 0.030220314860343933,
+          "minor-damage": 0.969723641872406,
+          "major-damage": 4.4881468056701124e-05,
+          "destroyed": 1.1053164598706644e-05
+        }
+      }
+    },
+    {
+      "id": 26,
+      "bbox": {
+        "x1": 602,
+        "y1": 518,
+        "x2": 662,
+        "y2": 571
+      },
+      "detection_confidence": 0.12083885073661804,
+      "area": 3180,
+      "dimensions": {
+        "width": 60,
+        "height": 53
+      },
+      "centroid": {
+        "x": 632.0,
+        "y": 544.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.588062584400177,
+        "probabilities": {
+          "no-damage": 0.588062584400177,
+          "minor-damage": 0.4119221866130829,
+          "major-damage": 1.5049698049551807e-05,
+          "destroyed": 1.2894643930394523e-07
+        }
+      }
+    },
+    {
+      "id": 27,
+      "bbox": {
+        "x1": 670,
+        "y1": 790,
+        "x2": 734,
+        "y2": 868
+      },
+      "detection_confidence": 0.11748300492763519,
+      "area": 4992,
+      "dimensions": {
+        "width": 64,
+        "height": 78
+      },
+      "centroid": {
+        "x": 702.0,
+        "y": 829.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9980369210243225,
+        "probabilities": {
+          "no-damage": 0.9980369210243225,
+          "minor-damage": 0.0011726705124601722,
+          "major-damage": 0.0005928367027081549,
+          "destroyed": 0.00019757135305553675
+        }
+      }
+    },
+    {
+      "id": 28,
+      "bbox": {
+        "x1": 694,
+        "y1": 255,
+        "x2": 784,
+        "y2": 344
+      },
+      "detection_confidence": 0.11314438283443451,
+      "area": 8010,
+      "dimensions": {
+        "width": 90,
+        "height": 89
+      },
+      "centroid": {
+        "x": 739.0,
+        "y": 299.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9902662634849548,
+        "probabilities": {
+          "no-damage": 0.9902662634849548,
+          "minor-damage": 0.009537057019770145,
+          "major-damage": 0.00019494838488753885,
+          "destroyed": 1.7265211909034406e-06
+        }
+      }
+    },
+    {
+      "id": 29,
+      "bbox": {
+        "x1": 756,
+        "y1": 765,
+        "x2": 822,
+        "y2": 833
+      },
+      "detection_confidence": 0.11228325217962265,
+      "area": 4488,
+      "dimensions": {
+        "width": 66,
+        "height": 68
+      },
+      "centroid": {
+        "x": 789.0,
+        "y": 799.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.8156086206436157,
+        "probabilities": {
+          "no-damage": 0.8156086206436157,
+          "minor-damage": 0.18425646424293518,
+          "major-damage": 0.00012901877926196903,
+          "destroyed": 5.885522568860324e-06
+        }
+      }
+    },
+    {
+      "id": 30,
+      "bbox": {
+        "x1": 759,
+        "y1": 776,
+        "x2": 836,
+        "y2": 837
+      },
+      "detection_confidence": 0.11189828813076019,
+      "area": 4697,
+      "dimensions": {
+        "width": 77,
+        "height": 61
+      },
+      "centroid": {
+        "x": 797.5,
+        "y": 806.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.5439593195915222,
+        "probabilities": {
+          "no-damage": 0.5439593195915222,
+          "minor-damage": 0.4559987485408783,
+          "major-damage": 3.9574519178131595e-05,
+          "destroyed": 2.343783762626117e-06
+        }
+      }
+    },
+    {
+      "id": 31,
+      "bbox": {
+        "x1": 225,
+        "y1": 135,
+        "x2": 269,
+        "y2": 184
+      },
+      "detection_confidence": 0.1068035289645195,
+      "area": 2156,
+      "dimensions": {
+        "width": 44,
+        "height": 49
+      },
+      "centroid": {
+        "x": 247.0,
+        "y": 159.5
+      },
+      "damage_assessment": {
+        "class": "minor-damage",
+        "confidence": 0.7676132321357727,
+        "probabilities": {
+          "no-damage": 0.23128929734230042,
+          "minor-damage": 0.7676132321357727,
+          "major-damage": 0.00029216488474048674,
+          "destroyed": 0.000805357878562063
+        }
+      }
+    },
+    {
+      "id": 32,
+      "bbox": {
+        "x1": 808,
+        "y1": 915,
+        "x2": 864,
+        "y2": 974
+      },
+      "detection_confidence": 0.10662728548049927,
+      "area": 3304,
+      "dimensions": {
+        "width": 56,
+        "height": 59
+      },
+      "centroid": {
+        "x": 836.0,
+        "y": 944.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9998550415039062,
+        "probabilities": {
+          "no-damage": 0.9998550415039062,
+          "minor-damage": 0.00012877311382908374,
+          "major-damage": 1.0164947070734343e-06,
+          "destroyed": 1.5032454939500894e-05
+        }
+      }
+    },
+    {
+      "id": 33,
+      "bbox": {
+        "x1": 91,
+        "y1": 0,
+        "x2": 129,
+        "y2": 15
+      },
+      "detection_confidence": 0.10364633798599243,
+      "area": 570,
+      "dimensions": {
+        "width": 38,
+        "height": 15
+      },
+      "centroid": {
+        "x": 110.0,
+        "y": 7.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.999683141708374,
+        "probabilities": {
+          "no-damage": 0.999683141708374,
+          "minor-damage": 0.00025421581813134253,
+          "major-damage": 6.123715866124257e-05,
+          "destroyed": 1.4652658819613862e-06
+        }
+      }
+    },
+    {
+      "id": 34,
+      "bbox": {
+        "x1": 295,
+        "y1": 902,
+        "x2": 324,
+        "y2": 933
+      },
+      "detection_confidence": 0.1035798192024231,
+      "area": 899,
+      "dimensions": {
+        "width": 29,
+        "height": 31
+      },
+      "centroid": {
+        "x": 309.5,
+        "y": 917.5
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.9486664533615112,
+        "probabilities": {
+          "no-damage": 0.9486664533615112,
+          "minor-damage": 0.051306914538145065,
+          "major-damage": 6.571730409632437e-06,
+          "destroyed": 2.010558091569692e-05
+        }
+      }
+    },
+    {
+      "id": 35,
+      "bbox": {
+        "x1": 711,
+        "y1": 840,
+        "x2": 730,
+        "y2": 868
+      },
+      "detection_confidence": 0.10062675923109055,
+      "area": 532,
+      "dimensions": {
+        "width": 19,
+        "height": 28
+      },
+      "centroid": {
+        "x": 720.5,
+        "y": 854.0
+      },
+      "damage_assessment": {
+        "class": "no-damage",
+        "confidence": 0.999517560005188,
+        "probabilities": {
+          "no-damage": 0.999517560005188,
+          "minor-damage": 0.00047824441571719944,
+          "major-damage": 1.4124128711046069e-06,
+          "destroyed": 2.7355413294571918e-06
+        }
+      }
+    },
+    {
+      "id": 36,
+      "bbox": {
+        "x1": 759,
+        "y1": 795,
+        "x2": 815,
+        "y2": 835
+      },
+      "detection_confidence": 0.10000471025705338,
+      "area": 2240,
+      "dimensions": {
+        "width": 56,
+        "height": 40
+      },
+      "centroid": {
+        "x": 787.0,
+        "y": 815.0
+      },
+      "damage_assessment": {
+        "class": "minor-damage",
+        "confidence": 0.6160303950309753,
+        "probabilities": {
+          "no-damage": 0.38374021649360657,
+          "minor-damage": 0.6160303950309753,
+          "major-damage": 0.00022514625743497163,
+          "destroyed": 4.230392733006738e-06
+        }
+      }
+    }
+  ]
+}
