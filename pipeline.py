@@ -472,7 +472,7 @@ def create_yolo_pipeline_from_saved_models(yolo_model_path: str,
     """
     # Build EfficientNet-B3 backbone with ImageNet weights
     from torchvision.models import efficientnet_b3, EfficientNet_B3_Weights
-    classification_model = efficientnet_b3(weights=EfficientNet_B3_Weights.IMAGENET1K_V1)
+    classification_model = efficientnet_b3(weights=none)
 
     # Replace the final classifier layer to match 4 classes
     in_feats = classification_model.classifier[1].in_features
@@ -491,13 +491,7 @@ def create_yolo_pipeline_from_saved_models(yolo_model_path: str,
         ckpt = new_ckpt
 
     # Load the classification model state
-    missing, unexpected = classification_model.load_state_dict(ckpt, strict=False)
-    if missing or unexpected:
-        print("Warning: load_state_dict issues:")
-        if missing:
-            print("  Missing keys:", missing)
-        if unexpected:
-            print("  Unexpected keys:", unexpected)
+    classification_model.load_state_dict(ckpt, strict=True)
 
     # Create pipeline
     pipeline = YOLOBuildingDamageAssessmentPipeline(
