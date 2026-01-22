@@ -472,7 +472,7 @@ def create_yolo_pipeline_from_saved_models(yolo_model_path: str,
     """
     # Build EfficientNet-B3 backbone with ImageNet weights
     from torchvision.models import efficientnet_b3, EfficientNet_B3_Weights
-    classification_model = efficientnet_b3(weights=none)
+    classification_model = efficientnet_b3(weights=None)
 
     # Replace the final classifier layer to match 4 classes
     in_feats = classification_model.classifier[1].in_features
