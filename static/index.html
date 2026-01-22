@@ -1396,7 +1396,9 @@
 </section>
 
 <script>
-  const API_URL = '/predict-with-image';
+    const API_BASE = "https://sajjaadjurawon--damagevision-api-fastapi-app.modal.run";
+    const API_URL = `${API_BASE}/predict-with-image`;
+
   let selectedFile = null;
 
   const uploadSection = document.getElementById('uploadSection'); // .try-drop
