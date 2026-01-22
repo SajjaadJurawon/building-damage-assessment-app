@@ -10,6 +10,7 @@ import io
 from typing import Optional
 import cv2
 from PIL import Image
+from pathlib import path
 
 # Import your pipeline
 from pipeline import create_yolo_pipeline_from_saved_models
@@ -232,7 +233,14 @@ def generate_visualization_image(results: dict) -> np.ndarray:
     return image
     
 # Serve static files
-app.mount("/static", StaticFiles(directory="static"), name="static")
+BASE_DIR = Path(__file__).resolve().parent
+STATIC_DIR = BASE_DIR / "static"
+
+app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+
+@app.get("/app")
+async def serve_app():
+    return FileResponse(str(STATIC_DIR / "index.html"))
 
 @app.get("/app")
 async def serve_app():
