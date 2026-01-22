@@ -1,6 +1,5 @@
 import os
 import io
-from pathlib import Path
 
 import torch
 import numpy as np
@@ -9,8 +8,6 @@ from PIL import Image
 from tifffile import imread
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
-from fastapi.responses import JSONResponse, FileResponse
-from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 from pipeline import create_yolo_pipeline_from_saved_models
@@ -78,7 +75,11 @@ def _load_uploaded_image(file: UploadFile, contents: bytes) -> np.ndarray:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
     if image.dtype != np.uint8:
-        image = (image / image.max() * 255).clip(0, 255).astype(np.uint8)
+        maxv = float(image.max()) if image.size else 1.0
+        if maxv > 0:
+            image = (image / maxv * 255).clip(0, 255).astype(np.uint8)
+        else:
+            image = image.astype(np.uint8)
 
     return image
 
