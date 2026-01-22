@@ -10,7 +10,7 @@ import io
 from typing import Optional
 import cv2
 from PIL import Image
-from pathlib import path
+from pathlib import Path
 
 # Import your pipeline
 from pipeline import create_yolo_pipeline_from_saved_models
